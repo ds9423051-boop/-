@@ -1,7 +1,12 @@
-{
-  "name": "site-b",
-  "version": "1.0.0",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
-}
+```js id="h3zkw0"
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+module.exports = app;
+```
