@@ -1,0 +1,206 @@
+```html id="ikll02"
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Secure Download</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:sans-serif;
+  background:#0f0f0f;
+  color:white;
+}
+
+.topbar{
+  background:#111;
+  border-bottom:1px solid #222;
+  padding:14px 32px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:20px;
+  font-weight:bold;
+  color:#22c55e;
+}
+
+.secure{
+  color:#22c55e;
+  font-size:12px;
+}
+
+.hero{
+  max-width:700px;
+  margin:80px auto;
+  text-align:center;
+  padding:0 24px;
+}
+
+.alert{
+  display:inline-block;
+  background:#dc2626;
+  padding:6px 14px;
+  border-radius:6px;
+  font-size:12px;
+  margin-bottom:20px;
+}
+
+h1{
+  font-size:42px;
+  margin-bottom:16px;
+}
+
+h1 span{
+  color:#22c55e;
+}
+
+.sub{
+  color:#9ca3af;
+  line-height:1.7;
+  margin-bottom:36px;
+}
+
+.download-area{
+  max-width:420px;
+  margin:0 auto;
+}
+
+.fake-btn{
+  width:100%;
+  padding:14px;
+  border-radius:10px;
+  border:1px dashed #555;
+  background:#2a2a2a;
+  color:#777;
+  margin-bottom:12px;
+}
+
+.real-btn{
+  width:100%;
+  padding:16px;
+  border:none;
+  border-radius:10px;
+  background:#16a34a;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.real-btn:hover{
+  background:#15803d;
+}
+
+.notice{
+  margin-top:14px;
+  font-size:11px;
+  color:#555;
+  line-height:1.6;
+}
+
+.reviews{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+  margin-top:40px;
+}
+
+.review{
+  background:#1a1a1a;
+  border:1px solid #222;
+  border-radius:10px;
+  padding:14px;
+  text-align:left;
+}
+
+.review strong{
+  color:#facc15;
+}
+
+.review p{
+  margin-top:8px;
+  color:#9ca3af;
+  font-size:13px;
+  line-height:1.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+  <div class="logo">
+    SecureDL
+  </div>
+
+  <div class="secure">
+    🔒 SSL Secured
+  </div>
+</div>
+
+<section class="hero">
+
+  <div class="alert">
+    ⚡ 限定高速ダウンロード
+  </div>
+
+  <h1>
+    FileManager Pro <span>最新版</span>
+  </h1>
+
+  <p class="sub">
+    ミラーサーバーから高速ダウンロード。
+    インストーラー込みで簡単セットアップ。
+  </p>
+
+  <div class="download-area">
+
+    <button class="fake-btn">
+      通常ダウンロード
+    </button>
+
+    <button
+      class="real-btn"
+      onclick="alert('モックサイトです')"
+    >
+      高速ダウンロード（推奨）
+    </button>
+
+    <div class="notice">
+      利用規約およびスポンサーソフトウェアの
+      インストール条件に同意したものとみなされます。
+    </div>
+
+  </div>
+
+  <div class="reviews">
+
+    <div class="review">
+      <strong>★★★★★</strong>
+      <p>
+        公式サイトより高速でした！
+      </p>
+    </div>
+
+    <div class="review">
+      <strong>★★★★★</strong>
+      <p>
+        インストールが簡単で助かりました。
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
+```
